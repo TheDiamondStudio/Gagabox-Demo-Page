@@ -7,7 +7,11 @@
 	--col4: #232323;
 	--darkmode-bck: #111
 }
-
+.grab {
+	cursor: grabbing;
+	cursor: -webkit-grabbing;
+	cursor: -moz-grabbing;
+}
 .darkmode ::-webkit-scrollbar {
 	width: 12px
 }
@@ -263,6 +267,7 @@ body.miniPlayer #home #home-bt-play:hover .bck {
 
 body.miniPlayer #home #home-bt-album,
 body.miniPlayer #home #home-bt-info,
+body.miniPlayer #home #home-bt-full,
 body.miniPlayer #home #home-bt-list,
 body.miniPlayer #home #home-bt-param,
 body.miniPlayer #watch-info {
@@ -1206,6 +1211,7 @@ body.miniPlayer #lock-pause .bt .bck {
 }
 
 .bt#home-bt-info,
+.bt#home-bt-full,
 .bt#home-bt-param {
 	top: 44px;
 	right: 44px;
@@ -1222,13 +1228,18 @@ body.miniPlayer #lock-pause .bt .bck {
 .bt#home-bt-info {
 	right: 103px
 }
+.bt#home-bt-full {
+	right: 161px
+}
 
 .bt#home-bt-info .bck,
+.bt#home-bt-full .bck,
 .bt#home-bt-param .bck {
 	line-height: 0
 }
 
 #home-bt-info.animate,
+#home-bt-full.animate,
 #home-bt-param.animate {
 	-webkit-animation: m .3s cubic-bezier(.175, .885, .32, 1.275) 0s forwards;
 	animation: m .3s cubic-bezier(.175, .885, .32, 1.275) 0s forwards
@@ -6270,6 +6281,9 @@ input[type=text].invalid {
 .expo #home-bt-info {
 	right: 44px!important
 }
+.expo #home-bt-full {
+	right: 44px!important
+}
 
 .expo #bt-switch,
 .expo #pop-popup[data-name=global-share] .bt.link,
@@ -6395,6 +6409,7 @@ body.mobile .bt#home-bt-switch .bck .bckimg {
 }
 
 body.mobile .bt#home-bt-info,
+body.mobile .bt#home-bt-full,
 body.mobile .bt#home-bt-param {
 	right: 44px;
 	width: 60px;
@@ -6404,7 +6419,9 @@ body.mobile .bt#home-bt-param {
 body.mobile .bt#home-bt-info {
 	right: 119px
 }
-
+body.mobile .bt#home-bt-full {
+	right: 163px
+}
 body.mobile #mixlist {
 	-webkit-transform-origin: center bottom;
 	transform-origin: center bottom
@@ -6485,7 +6502,8 @@ body.ultrawide .bt#home-bt-switch {
 	margin-left: 50px
 }
 
-body.ultrawide .bt#home-bt-info,
+body.ultrawide .bt#home-bt-info, 
+body.ultrawide .bt#home-bt-full,
 body.ultrawide .bt#home-bt-list,
 body.ultrawide .bt#home-bt-param {
 	margin-right: 50px
