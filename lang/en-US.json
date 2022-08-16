@@ -44,6 +44,9 @@
             "selectVersion": "Select a version to start mixing music",
             "enjoyVersion": "Enjoy other versions!",
             "tuto1": "<b>Drag and drop</b> an icon on<br>a character to have him sing",
+            
+            "fullscreen-title":"You may need to <b>reload</b> the page",
+            
             "tuto2": "<b>Drag down</b> a character<br>to have him stop singing",
             "tuto3": "<b>Press</b> on a character<br>to mute him",
             "tuto4": "<b>Press</b> on a character and hold<br>for a second to make him sing solo",
@@ -76,7 +79,7 @@
             "comments": "Comments",
             "thanks": "Thank you",
             "quitAppConfirm": "Do you really want to quit Incredibox?",
-            "prezAlbum": "Discover a remastered collection of the 7 versions of Incredibox for its 10th anniversary. Listen to the groove right now!",
+            "prezAlbum": "Thank you for using the Incredibox Lady Gaga Edition DEMO.To avoid visiting the site, you can download the app!<br>Mod creators: <br>Diamond, <br>BBoxer</div>",
             "termsAgreed": "I agreed with the general terms of use",
             "codeEnter": "Enter your code",
             "codeChoose": "Choose a code",
@@ -106,6 +109,9 @@
             "silentTitle": "&#128263;",
             "silentText": "Your device is set to <b>silent</b> mode! Please turn on the <b>ring mode</b> to play Incredibox.",
             "dragDropTitle": "Drag'n drop",
+            
+            "fullscreen": "Сhanging the size",
+
             "dragDropText": "Drag and drop an icon onto<br>a character to start recording",
             "toShortTitle": "Too short",
             "toShortText": "You have to record at least<br>%{minimum_time} seconds to save your mix",
@@ -207,7 +213,7 @@
             "contact": "Contact",
             "feedback": "Feedback",
             "privacy": "Privacy",
-            "listenAlbum": "Listen the album",
+            "listenAlbum": "Download",
             "menuRestart": "Reset",
             "menuRandom": "Auto",
             "menuRecord": "Rec",
