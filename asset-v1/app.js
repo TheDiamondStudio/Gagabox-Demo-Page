@@ -1,6 +1,6 @@
 /* 1.2.1 2021-04-23 18:14:05 */
 var app = new function() {
-    this.name = "Alpha", this.version = "1", this.date = "2009", this.folder = "asset-v1/", this.looptime = 9130, this.bpm = 105, this.totalframe = 550, this.nbpolo = 7, this.nbloopbonus = 2, this.bonusloopA = !1, this.bonusendloopA = !1, this.recmaxloop = 34, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#121212", this.col0 = "#919191", this.col1 = "#5f5f5f", this.col2 = "#4b4b4b", this.col3 = "#373737", this.col4 = "#232323", this.animearray = [{
+    this.name = "Alpha", this.version = "1", this.date = "2009", this.folder = "asset-v1/", this.looptime = 9130, this.bpm = 105, this.totalframe = 550, this.nbpolo = 7, this.nbloopbonus = 2, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 34, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#121212", this.col0 = "#919191", this.col1 = "#5f5f5f", this.col2 = "#4b4b4b", this.col3 = "#373737", this.col4 = "#232323", this.animearray = [{
         name: "beat1",
         color: "828282",
         uniqsnd: !0
@@ -56,7 +56,11 @@ var app = new function() {
 	},{
         name: "effect4",
         color: "828282",
-        uniqsnd: !0
+        uniqsnd: !1
+	},{
+        name: "effect5",
+        color: "828282",
+        uniqsnd: !1
 	},{
         name: "voice1",
         color: "828282",
@@ -80,7 +84,7 @@ var app = new function() {
     }], this.bonusarray = [{
         name: "Choir",
         src: "v1-b3-santa-hb.mp4",
-        code: "5,6,11",
+        code: "1,5,6,9,16",
         sound: "bonus-choir",
         aspire: "aspire-choir"
     }];
